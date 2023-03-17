@@ -14,5 +14,9 @@ public class leer_datos{
         
         System.out.println(nombre + "bienvenido");
         
+        int numero;
+        System.out.println("ingrese el numero");
+        numero = leer.nextInt();
+        
     }
 }
