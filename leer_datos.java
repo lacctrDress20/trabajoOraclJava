@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import javax.sound.midi.SysexMessage;
 /* 
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/reactjs.jsx to edit this template
@@ -14,9 +16,13 @@ public class leer_datos{
           int numero;
         System.out.println("ingrese el numero");
         numero = leer.nextInt(); 
-        if() 
+        if(numero>=10){
+            System.out.println(nombre+(", el numero que ingreso es mayor que 10"));
         }
-        
-        
+        else{
+            System.out.println(nombre+(", el numero que ingreso es menor que 10"));
+        }
+        leer.close();
+        }
     }
 }
