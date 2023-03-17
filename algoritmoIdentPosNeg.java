@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
-import javax.security.auth.x500.X500Principal;
-public class NegPos{
+public class algoritmoIdentPosNeg{
     public static void main(String[] agrs)
     {
         Scanner numero1 = new Scanner(System.in);
@@ -14,5 +12,7 @@ public class NegPos{
         }else {
             System.out.println("El numero que ingresaste es negativo");
         }
+        numero1.close();
         }
+
     }
