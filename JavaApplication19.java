@@ -15,7 +15,8 @@ public class JavaApplication19 {
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
- 
+        
+        System.out.println("Ingrese el numero: ");
         int n = teclado.nextInt();
         
         int suma= 0;
